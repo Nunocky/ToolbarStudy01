@@ -13,7 +13,6 @@
         layout="@layout/toolbar_main"/>
 
     <FrameLayout
-        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/tool_bar">
@@ -22,6 +21,10 @@
         <include layout="@layout/toolbar_dropshadow"/>
 
         <!-- ここにコンテンツを配置 -->
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
     </FrameLayout>
 
